@@ -1,5 +1,5 @@
 body {
-    background-color:tan;
+    background-color:black;
     font-family:arial;
     color:white
     }
@@ -17,6 +17,5 @@ h1{
     border-radius:25px;
     position: absolute;
     left: 38%;
-    top: 25%
 }
 
