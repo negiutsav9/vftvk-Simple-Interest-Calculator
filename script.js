@@ -21,10 +21,12 @@ function updateRate()
 function checkPrincipal()
 {
     var principal = document.getElementById("principal").value;
-    if((principal != undefined) && (principal <= 0)){
-        alert("Enter a positive number");
-        principal.focus();
-        return false;
+    if(principal != undefined){
+        if(principal <= 0){
+            alert("Enter a positive number");
+            principal.focus()
+            return false; 
+        }
     }
     return true;
 }
